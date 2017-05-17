@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>DOVK购物网</title>
+     <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+     <link href="dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+     <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+     <link href="cxz.css" rel="stylesheet" type="text/css"/>
+     <link href="http://bcgm.yigolden.com/bcgm/static/css/signin.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+        <div class="menu2"  align="right"><!-- 菜单 --><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">登录</asp:LinkButton>||<a href="UserMain.aspx">首页</a>||<a href="UserInfo.aspx">个人信息</a>||<a href="ShopCart.aspx" >购物车</a>||<a href="login.aspx" >管理员</a>
+        </div>
+         <div class="head"><!-- 头部 -->
+             <img width="100%" height="140px" src="image/head.jpg" />
+         </div>
+        <div class="container">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">      
+            </asp:ContentPlaceHolder>
+        </div>
+        <div  class="bottom" align="center"><!-- 低部 -->Copyright@版权所有 
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="http://www.nimt.cn/" ForeColor="Aqua">南京机电职业技术学院</asp:HyperLink><br/>江苏省南京市江宁区宝善寺路56号 025-84120820
+        <br/>电子邮件:1269111041@qq.com QQ:1269111041 电话:15052409083
+        </div>
+    </div>
+    </form>
+</body>
+</html>

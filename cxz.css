@@ -1,0 +1,72 @@
+﻿body {
+}
+form {
+    height:100%;
+}
+.head
+{
+	height: 10%;
+}
+.bottom
+{ 
+	height: 20%;
+	font-size: 14px;
+	margin-top:10px;
+	margin-bottom: 20px;
+	clear:left;  
+}
+
+.menu2
+{
+    height: 5%;
+    margin:0px,0px;
+    width:100%;
+}
+.content
+{
+    float:left;
+	margin-top:10px;
+	font-size: 14px;
+	font-style: normal;
+	margin-bottom:10px;
+	width:15%;
+	color: #00FFFF;
+}
+.contain
+{
+    float:left;
+    width:85%;
+    margin-top:10px;
+    font-size: 14px;
+	font-style: normal;
+	height:650px;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.wrapper
+{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+.mygird
+{
+    text-align:center;
+    margin-left: 0px;
+    width:100%;
+}
+.navigate
+{
+    width:100%;
+    font-size:50px; 
+    padding:0 15px;
+}
+.container
+{
+    margin-top:10px;
+    font-size: 14px;
+	font-style: normal;
+	height:65%;
+	margin-bottom:10px;
+	width:100%;
+}
